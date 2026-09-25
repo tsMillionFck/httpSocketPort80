@@ -4,7 +4,7 @@ A minimalist, standards-compliant HTTP client written from scratch in C using PO
 
 ---
 
-## 🏗️ Architecture & Lifecycle
+## Architecture & Lifecycle
 
 ```
                      getaddrinfo()
@@ -33,7 +33,7 @@ A minimalist, standards-compliant HTTP client written from scratch in C using PO
 
 ---
 
-## 🔑 Key Concepts Explained
+## Key Concepts Explained
 
 ### 1. `getaddrinfo` & Structs
 * **`struct addrinfo hints`**: Provides criteria for the DNS query (`AF_INET` for IPv4, `SOCK_STREAM` for TCP).
@@ -71,7 +71,7 @@ A minimalist, standards-compliant HTTP client written from scratch in C using PO
 
 ---
 
-## 🚀 Building & Running
+## Building & Running
 
 ### Requirements
 * GCC or Clang
